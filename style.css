@@ -1,14 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('wallpaper.jpg');
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
    }
 
 .home {
+    background: url('home.wallpaper.jpeg');
+    background-size: cover;
+}
+
+.about {
+    
+}
+
+.homeContent {
     background-color: white;
     padding: 20px;
     width: 80%;
