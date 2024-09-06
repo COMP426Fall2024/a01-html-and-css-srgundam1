@@ -1,3 +1,16 @@
 body {
-    background-image: url("wallpaper");
+    margin: 0;
+    padding: 0;
+    background: url('wallpaper.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
+
+.home {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
