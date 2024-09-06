@@ -12,7 +12,12 @@ body {
 }
 
 .about {
-    background: url('characters.jpg');
+    background: url('seasons.jpg');
+    background-size: cover;
+}
+
+.characters {
+    background: url('characters.jpeg');
     background-size: cover;
 }
 
@@ -21,4 +26,23 @@ body {
     padding: 20px;
     width: 80%;
     text-align: center;
+}
+
+.aboutContent {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.charactersContent {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
