@@ -12,7 +12,8 @@ body {
 }
 
 .about {
-    
+    background: url('characters.jpg');
+    background-size: cover;
 }
 
 .homeContent {
