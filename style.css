@@ -59,7 +59,7 @@ th, td{
   }
 
 .topnav a {
-    float: center;
+    float:left;
     display: block;
     color: #000000;
     text-align: center;
@@ -81,7 +81,8 @@ th, td{
 
   .team {
     border-style: dashed;
-    padding: 20px;
+    padding: 50px;
+    margin: 50px;
   }
 
   #s1 {
@@ -100,7 +101,7 @@ th, td{
   }
 
   #s5 {
-    font-family: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   tr:nth-child(even) {
