@@ -6,10 +6,6 @@ body {
     align-items: center;
    }
 
-.home {
-    background: url('home.wallpaper.jpeg');
-    background-size: cover;
-}
 
 .about {
     background: url('seasons.jpg');
@@ -22,7 +18,7 @@ body {
 }
 
 .homeContent {
-    background-color: white;
+    background-color: rgb(165, 232, 255);
     padding: 20px;
     width: 80%;
     text-align: center;
@@ -49,14 +45,15 @@ table, th, td{
 }
 
 .topnav {
+    width: 100%;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3bd257;
   }
 
 .topnav a {
-    float: left;
+    float: center;
     display: block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,6 +61,6 @@ table, th, td{
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
     color: black;
   }
