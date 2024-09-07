@@ -90,6 +90,7 @@ th, td{
     padding: 25px;
     margin: 25px;
     width: max-content;
+    display: inline-block;
   }
 
   #s1 {
