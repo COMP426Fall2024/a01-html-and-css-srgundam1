@@ -58,7 +58,7 @@ th, td{
   }
 
 .topnav a {
-    float: left;
+    float: center;
     display: block;
     color: #000000;
     text-align: center;
@@ -99,4 +99,11 @@ th, td{
 
   #s5 {
     font-family: initial;
+  }
+
+  tr:nth-child(even) {
+    background:#dbc2e4
+  }
+  tr:nth-child(odd) {
+    background:#c2e4d4
   }
