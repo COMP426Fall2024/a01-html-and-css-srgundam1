@@ -1,9 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
    }
 
 
@@ -27,9 +23,10 @@ body {
 
 .aboutContent {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     width: 60%;
     text-align: center;
+    position: bottom-center;
 }
 
 .charactersContent {
@@ -40,7 +37,8 @@ body {
 }
 
 table, th, td{
-    border: 1px solid black;
+    align-items: center;
+    border: 5px solid black;
     border-collapse: collapse;
     text-align: center;
 }
@@ -52,7 +50,7 @@ table, th, td{
   }
 
 .topnav a {
-    float: center;
+    float: left;
     display: block;
     color: #000000;
     text-align: center;
