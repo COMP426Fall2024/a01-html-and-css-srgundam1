@@ -26,7 +26,6 @@ body {
     padding: 10px;
     width: 60%;
     text-align: center;
-    position: bottom-center;
 }
 
 .charactersContent {
@@ -37,10 +36,10 @@ body {
 }
 
 table, th, td{
-    align-items: center;
     border: 5px solid black;
     border-collapse: collapse;
     text-align: center;
+    margin: 10px;
 }
 
 .topnav {
@@ -57,9 +56,15 @@ table, th, td{
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .topnav:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ffffff;
-    color: black;
+    background-color: #077021;
+    color: rgb(249, 249, 249);
   }
