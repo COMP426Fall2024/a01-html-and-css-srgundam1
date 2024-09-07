@@ -81,3 +81,22 @@ th, td{
   .team {
     border-style: dashed;
   }
+
+  #s1 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #s2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #s3 {
+    font-family: fantasy;
+  }
+
+  #s4 {
+    font-family: cursive;
+  }
+
+  #s5 {
+    font-family: initial;
+  }
