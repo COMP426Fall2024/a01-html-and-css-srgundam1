@@ -2,6 +2,10 @@ body {
     margin: 0;
    }
 
+.home {
+    background-color: rgb(165, 232, 255);
+}
+
 
 .about {
     background-image: url('seasons.jpg');
@@ -15,7 +19,6 @@ body {
 }
 
 .homeContent {
-    background-color: rgb(165, 232, 255);
     padding: 20px;
     width: 80%;
     text-align: center;
@@ -35,11 +38,17 @@ body {
     text-align: center;
 }
 
-table, th, td{
-    border: 5px solid black;
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    margin: 10px;
+    padding: 15px;
 }
 
 .topnav {
@@ -67,4 +76,8 @@ table, th, td{
   .topnav a:hover {
     background-color: #077021;
     color: rgb(249, 249, 249);
+  }
+
+  .team {
+    border-style: dashed;
   }
