@@ -22,6 +22,7 @@ body {
     padding: 20px;
     width: 80%;
     text-align: center;
+    align-items: center;
 }
 
 .aboutContent {
@@ -80,6 +81,7 @@ th, td{
 
   .team {
     border-style: dashed;
+    padding: 20px;
   }
 
   #s1 {
