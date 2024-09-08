@@ -15,9 +15,7 @@ body {
 }
 
 .aboutContent {
-    width: 100%;
-    align-items: center;
-    margin: 0 auto;
+    position: relative;
 }
 
 
@@ -35,9 +33,12 @@ body {
 }
 
 table{
+    position: absolute;
     width: 50%;
-    position: bottom;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
+    bottom: 0;
 }
 
 th, td{
