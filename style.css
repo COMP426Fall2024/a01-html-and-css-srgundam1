@@ -3,7 +3,7 @@ body {
    }
 
 .home {
-    background-color: rgb(165, 232, 255);
+    background-color: #a5e8ff;
 }
 
 
@@ -30,7 +30,7 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 .characters{
-    background-color: rgb(165, 232, 255);
+    background-color: #a5e8ff;
     text-align: center;
     align-items: center;
     font-family:'Courier New', Courier, monospace;
@@ -148,5 +148,9 @@ th, td{
     height: 80%;
     padding: 20px;
     margin: 0 auto;
+  }
+
+  div > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
