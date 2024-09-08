@@ -29,7 +29,7 @@ body {
 }
 .characters{
     background-color: rgb(165, 232, 255);
-    text-align: center;
+    text-align: left;
     align-items: center;
     font-family:'Courier New', Courier, monospace;
 }
@@ -135,6 +135,6 @@ th, td{
   }
 
   #img {
-    width:100px;
-    height: 100px;
+    width:160px;
+    height: 160px;
   }
