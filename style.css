@@ -27,10 +27,12 @@ body {
     margin: 0 auto;
     font-family:'Courier New', Courier, monospace;
 }
-
-.charactersContent {
-   display: flex;
+.characters{
+    text-align: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
 }
+
 
 table{
     position: absolute;
@@ -114,12 +116,6 @@ th, td{
     column-gap: 40px;
     column-span: all;
  }
-
-  .charactersContent::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
   #main {
     font-size: 18px;
