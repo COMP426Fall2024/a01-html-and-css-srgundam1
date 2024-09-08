@@ -109,23 +109,11 @@ th, td{
     background:#c2e4d4
   }
 
- .column {
-    float: left;
-    padding: 10px;
+ .charList {
+    column-count: 3;
+    column-gap: 40px;
+    column-span: all;
  }
-
-  .column.left{
-    width:40%;
-    background-color: white;
-    text-align: left;
-    padding: 15px;
-  }
-
-  .column.right {
-    width: 60%;
-    padding: 15px;
-    justify-content: center;
-  }
 
   .charactersContent::after {
     content: "";
@@ -139,4 +127,16 @@ th, td{
 
   #img {
     display: inline-block;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .grid-item {
+    border: 1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    text-align: center;
   }
