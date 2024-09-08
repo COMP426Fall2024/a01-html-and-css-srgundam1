@@ -15,7 +15,7 @@ body {
 }
 
 .aboutContent {
-    position: relative;
+    width: 100%;
     align-items: center;
     margin: 0 auto;
 }
@@ -31,13 +31,12 @@ body {
 }
 
 .charactersContent {
-    display: flex;
+   display: flex;
 }
 
 table{
-    position: absolute;
     width: 50%;
-    bottom: 300px;
+    position: bottom;
     border-collapse: collapse;
 }
 
@@ -109,15 +108,28 @@ th, td{
     background:#c2e4d4
   }
 
-  .column1 {
-    width:30%;
+ .column {
+    float: left;
+    padding: 10px;
+ }
+
+  .column.left{
+    width:40%;
     background-color: white;
     text-align: left;
     padding: 15px;
   }
 
-  .column2 {
+  .column.right {
+    width: 60%;
     padding: 15px;
+    justify-content: center;
+  }
+
+  .charactersContent::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   #main {
