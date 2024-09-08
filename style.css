@@ -32,7 +32,7 @@ body {
 }
 .characters{
     background-color: rgb(165, 232, 255);
-    text-align: left;
+    text-align: center;
     align-items: center;
     font-family:'Courier New', Courier, monospace;
 }
@@ -114,6 +114,7 @@ th, td{
     column-count: 3;
     column-gap: 40px;
     column-span: all;
+    text-align: left;
  }
 
   #main {
