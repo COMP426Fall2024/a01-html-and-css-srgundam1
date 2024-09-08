@@ -1,6 +1,6 @@
 body {
     margin: 0;
-   }
+}
 
 .home {
     background-color: #a5e8ff;
@@ -27,17 +27,18 @@ body {
     text-align: center;
     align-items: center;
     margin: 0 auto;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
-.characters{
+
+.characters {
     background-color: #a5e8ff;
     text-align: center;
     align-items: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
-table{
+table {
     width: 70%;
     border-collapse: collapse;
     position: fixed;
@@ -47,7 +48,8 @@ table{
     margin: auto;
 }
 
-th, td{
+th,
+td {
     border: 1.5px solid black;
     border-collapse: collapse;
     text-align: center;
@@ -58,99 +60,100 @@ th, td{
     width: 100%;
     overflow: hidden;
     background-color: #3bd257;
-  }
+}
 
 .topnav a {
-    float:left;
+    float: left;
     display: block;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
-  .topnav:after {
+.topnav:after {
     content: "";
     display: table;
-    clear: both; 
+    clear: both;
 }
-  
-  /* Change color on hover */
-  .topnav a:hover {
+
+/* Change color on hover */
+.topnav a:hover {
     background-color: #077021;
     color: rgb(249, 249, 249);
-  }
+}
 
-  .team {
+.team {
     border-style: dashed;
     padding: 25px;
     margin: 25px;
     width: max-content;
     display: inline-block;
-  }
+}
 
-  #s1 {
+#s1 {
     font-family: 'Courier New', Courier, monospace;
-  }
-  #s2 {
+}
+
+#s2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+}
 
-  #s3 {
+#s3 {
     font-family: fantasy;
-  }
+}
 
-  #s4 {
+#s4 {
     font-family: cursive;
-  }
+}
 
-  #s5 {
+#s5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
 
-  tr:nth-child(even) {
-    background:#dbc2e4
-  }
-  tr:nth-child(odd) {
-    background:#c2e4d4
-  }
+tr:nth-child(even) {
+    background: #dbc2e4
+}
 
- .charList {
+tr:nth-child(odd) {
+    background: #c2e4d4
+}
+
+.charList {
     column-count: 3;
     column-gap: 40px;
     column-span: all;
     text-align: left;
- }
+}
 
-  #main {
+#main {
     font-size: 18px;
-  }
+}
 
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-  }
+}
 
-  .grid-item {
-    border: 1px solid rgba(0,0,0,0.8);
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     text-align: center;
-  }
+}
 
-  #img {
-    width:160px;
+#img {
+    width: 160px;
     height: 160px;
-  }
+}
 
-  div > img {
-    width: 80% auto;
+div>img {
+    width: auto;
     height: 80%;
     padding: 20px;
     margin: 0 auto;
-  }
+}
 
-  div > h3 {
+div>h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
+}
