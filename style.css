@@ -40,7 +40,11 @@ body {
 table{
     width: 70%;
     border-collapse: collapse;
+    position: fixed;
     bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 th, td{
@@ -139,9 +143,9 @@ th, td{
     height: 160px;
   }
 
-  homeContent > img {
-    width: 85%;
-    height: 85%;
+  div > img {
+    width: 80%;
+    height: 80%;
     padding: 20px;
     margin: 0 auto;
   }
