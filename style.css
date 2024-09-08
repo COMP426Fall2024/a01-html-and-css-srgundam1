@@ -15,7 +15,10 @@ body {
 }
 
 .aboutContent {
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 
@@ -36,12 +39,7 @@ body {
 
 
 table{
-    position: absolute;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-    bottom: 0;
+    width: 70%;
 }
 
 th, td{
