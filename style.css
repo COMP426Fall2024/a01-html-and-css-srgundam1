@@ -14,9 +14,6 @@ body {
     background-size: cover;
 }
 
-.aboutContent {
-    position: relative;
-}
 
 .homeContent {
     padding: 20px;
@@ -31,9 +28,7 @@ body {
 }
 
 table{
-    border-collapse: collapse;
-    position: absolute;
-    margin: auto;
+    left: 50%;
     bottom: 300px;
 }
 
