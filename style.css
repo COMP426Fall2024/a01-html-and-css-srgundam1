@@ -16,7 +16,6 @@ body {
 
 .aboutContent {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     padding-bottom: 50px;
 }
@@ -40,6 +39,8 @@ body {
 
 table{
     width: 70%;
+    border-collapse: collapse;
+    bottom: 50px;
 }
 
 th, td{
@@ -137,3 +138,9 @@ th, td{
     width:160px;
     height: 160px;
   }
+
+  homeContent > img {
+    width: 90%;
+    height: 90%;
+  }
+
